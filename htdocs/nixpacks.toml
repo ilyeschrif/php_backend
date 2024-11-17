@@ -1,0 +1,11 @@
+[phases.setup]
+commands = [
+  "apt-get update",
+  "apt-get install -y php"
+]
+
+[phases.build]
+commands = []
+
+[phases.start]
+commands = ["php -S 0.0.0.0:8080"]
